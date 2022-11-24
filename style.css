@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resume-contents {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #075e4b;
+    border-radius: 145px 0px 0px 30px;
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #0e9e7f;
+    border-radius: 0px 60px 150px 0px;
+}
+
+.left-section-contents{
+    padding: 2rem 2rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+    text-align: center;
+}
+
+.profile .profile-image {
+    width: 100% ;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.profession {
+    color: #eeeeee;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* .contact-info { border-bottom: 2px solid #1B2631; } */
+.left-title {
+    color: #eeeeee;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.contact-info ul {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    padding-left: 2rem;
+    color: #eeeeee;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #eeeeee;
+}
+
+.skills ul {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.skills ul li p {
+    padding: .4rem 0;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    color: #eeeeee;
+}
+
+.right-section-contents {
+    padding: 2rem 2rem;
+}
+
+.right-title {
+    color: #eeeeee;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.gap {
+    padding-bottom: 2rem;
+}
+.about-me-contents {
+    font-size: 18px;
+    color: #eeeeee;
+    position:absolute;
+}
